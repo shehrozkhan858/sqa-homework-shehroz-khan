@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# Playwright output (the committed report lives in artifacts/report/, not here)
+test-results/
+playwright-report/
+.playwright/
+
+# local tooling
+.claude/
+
+# misc
+*.log
+.env
+.DS_Store
