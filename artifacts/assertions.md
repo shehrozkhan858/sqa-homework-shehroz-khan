@@ -1,6 +1,6 @@
 # Validating a non-deterministic answer
 
-**Topic:** "What is Permission?" · **Code:** [`tests/02-ask.spec.js`](../tests/02-ask.spec.js) · **Wait strategy:** [`tests/helpers.js`](../tests/helpers.js) → `waitForSettledReply`
+**Topic:** "What is Permission?" · **Code:** [`tests/02-ask.spec.js`](../tests/02-ask.spec.js) · **Wait strategy:** [`utils/helpers.js`](../utils/helpers.js) → `waitForSettledReply`
 
 I picked this topic because Permission's answer has a knowable core — a personal-data broker that pays users for sharing data ("your personalized data broker… the more you share, the more you earn"). That gives a correct answer a checkable shape without pinning words.
 

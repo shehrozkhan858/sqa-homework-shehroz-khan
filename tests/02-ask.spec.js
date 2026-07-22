@@ -1,6 +1,6 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const { sel, openApp, askAndWaitForReply } = require('./helpers');
+const { sel, openApp, askAndWaitForReply } = require('../utils/helpers');
 
 /**
  * Required behavior #3 (free-text ASK -> response) AND all of Part 2

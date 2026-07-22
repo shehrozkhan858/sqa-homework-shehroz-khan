@@ -1,6 +1,6 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const { sel, openApp, waitForSettledReply } = require('./helpers');
+const { sel, openApp, waitForSettledReply } = require('../utils/helpers');
 
 /**
  * Suggested-topic pills locator. The brief describes clickable topic pills, but
@@ -10,6 +10,7 @@ const { sel, openApp, waitForSettledReply } = require('./helpers');
  * feature appears pre-login and to skip-with-reason until then, rather than
  * hard-fail on a product state we don't control. See README + ai-workflow.md.
  */
+/** @param {import('@playwright/test').Page} page */
 const pills = (page) =>
   page.locator(
     [

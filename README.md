@@ -27,7 +27,7 @@ That's it — no env vars, no secrets, no local server. The suite hits the live 
 
 - **Playwright** over Cypress/Selenium: best auto-waiting + web-first assertions for a streaming, non-deterministic UI, and native mobile emulation.
 - **Wait on the app's own stream signal** (send↔stop button) instead of timeouts — the graded core.
-- **No page objects** — one `tests/helpers.js`; the brief warns against a "cathedral" for 8 tests.
+- **No page objects** — one `utils/helpers.js`; the brief warns against a "cathedral" for 8 tests.
 - **`workers: 2`** — the suite hits a shared live LLM backend; high concurrency caused false failures.
 - **iPhone 13 emulated inline** (not a 2nd project) so the count stays at 8 real cases and install stays Chromium-only.
 - **Pills gap treated as a finding, not a failure** — resilient tests that pass the day the feature returns.

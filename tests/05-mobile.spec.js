@@ -1,6 +1,6 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const { sel, openApp } = require('./helpers');
+const { sel, openApp } = require('../utils/helpers');
 
 // Test #8 (my pick): the brief explicitly invites mobile-viewport coverage.
 // Emulated inline (not a second project) so the suite stays at 8 real cases.

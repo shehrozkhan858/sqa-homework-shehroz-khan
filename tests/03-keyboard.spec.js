@@ -1,6 +1,6 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const { sel, openApp, waitForSettledReply } = require('./helpers');
+const { sel, openApp, waitForSettledReply } = require('../utils/helpers');
 
 test.describe('Keyboard submit semantics', () => {
   // Required behavior #4: Shift+Enter inserts a newline and does NOT send.

@@ -1,6 +1,6 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
-const { sel, openApp } = require('./helpers');
+const { sel, openApp } = require('../utils/helpers');
 
 // Test #6 (my pick): empty / whitespace-only input must not fire a request.
 // This is a real failure surface — an unguarded send wastes an LLM call and can
